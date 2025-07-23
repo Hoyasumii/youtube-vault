@@ -4,7 +4,7 @@ Na minha carreira não muito longa como programador, eu sempre tive vontade de c
 
 ## 1. Uma apresentação não muito autêntica
 O ano era 2023. E eu, um jovem adulto de 19 anos, que estudava incessantemente programação web, pois antes de 2023 eu focava muito em Python e C#, e quando eu quis criar um site meu, eu não tinha um repertório de tecnologia como eu tenho hoje, e é aí que surge o meu primeiro site. A primeira versão do meu site, embora não tenha sido algo único, nem muito menos criativo, foi criado apenas com HTML e CSS, sendo inspirado em um outro site(que eu me esqueci de quem era).
-![[Captura de Tela 2025-07-18 às 11.45.19.png]]
+![[1.png]]
 E para a surpresa de ninguém, era apenas um site estático. Um site que tinha apenas um hover sobre os ícones, e que não tinha nenhuma personalidade. Esse site me incomodava bastante, e por diversos problemas pessoais, eu não consegui dar a devida atenção para o meu site pessoal como deveria, então eu maquinei na minha cabeça, formas de eu me apresentar, querendo dar um toque moderno, que se diferenciasse dos sites comuns de todo programador, mas que ainda fosse um site de programador.
 
 Um tempinho depois, eu fui para o Hackaton da Mulvi, uma empresa aqui da cidade de onde eu moro, e nesse Hackaton, acabei mexendo muito no site deles, para entender a estética da marca e acabei me interessando muito pelas formas e pela ideia em si. Mas e como isso afetou o meu "Design System"? Digamos que me ajudou a encontrar um pouco sobre o que eu queria mostrar. 
@@ -15,8 +15,8 @@ Logo depois disso, consegui um estágio na área, e acabei indo aprender PHP e m
 ## 2. O site de um dia
 
 Indo para 2024, e saindo desse estágio e de um emprego de júnior, eu decidi pegar aquelas minhas ideias iniciais de fazer o meu site conforme aquela ideia, só que agora eu queria mostrar alguns dos meus projetos para me destacar. Nesse tempo, o meu repertório acabou crescendo: Aprendi tecnologias que hoje são base para o que eu faço. Não é como se eu não conseguisse fazer sem essa base, mas é que de fato facilita. Acabei aprendendo React, Next, Tailwind e SASS. E numa bela madrugada, esse site saiu:
-![[Captura de Tela 2025-07-18 às 12.04.56.png]]
-![[Captura de Tela 2025-07-18 às 12.05.16.png]]
+![[2.png]]
+![[3.png]]
 Nessa versão, eu consegui entregar parte do que eu queria:
 - Me apresentar
 - Mostrar os meus projetos
@@ -35,9 +35,9 @@ E infelizmente, pelas minhas obrigações, que me tirava muito o tempo livre, ac
 Voltando para os dias de hoje e tentando encontrar alguma imagem sobre o funcionamento, uma coisa que está me incomodando é que o Font Awesome é horrível. Eu nem ia comentar sobre o excesso de dependências de um projeto para uma ferramenta externa, mas aí vai. Tudo começou com meu amigo me compartilhando a chave profissional dele para eu usar nos meu site. O problema é que a chave não funciona mais, e o Font Awesome possui uma infinidade de bibliotecas de ícones. Agora eu preciso refatorar – ou quase – um projeto de 1 ano.
 
 Depois de um tempo, finalmente consegui ajeitar. Obviamente, os ícones não estão certos, mas a ideia era só construir o básico para poder mostrar.
-![[Captura de Tela 2025-07-19 às 15.26.09.png]]
-![[Captura de Tela 2025-07-19 às 15.26.42.png]]
-![[Captura de Tela 2025-07-19 às 15.26.53.png]]
+![[4.png]]
+![[5.png]]
+![[6.png]]
 Era um projeto interessante, porque embora ele permanecesse simples em funcionamento, eu acabei aprendendo muita coisa interessante, inclusive a reutilizar uma ferramenta que já foi bastante utilizada nos sites de antigamente: Os `iframe`.
 
 Um iframe permite que o seu site exiba um outro site num determinado espaço. Entretanto, é um recurso bem limitado, já que nem todos os sites permitem isso nos dias de hoje, e eu acabei ficando muito preso à essa ideia. 
@@ -55,7 +55,7 @@ A minha inspiração com o visual da Apple é enorme, mas não num sentido de eu
 Meu outro ponto é pensar nas cores. Como as cores nos afetam?  O que dá vida à logos e marcas no geral? Infelizmente, todo processo criativo é infernal, e fica extremamente difícil de eu imaginar cores para mim, um programador, que antes de ser programador é um nerdola e audiófilo, e por que não usar cores amigáveis e juntá-las?
 
 Foi aí que eu fui para o Figma, e criei uma versão experimental do que eu gostaria de mostrar para o mundo:
-![[LinkedIn cover - 1.png]]
+![[7.png]]
 É uma estética que embora tenha sido meio simples, eu acabei me agradando, pois funcionou. E é difícil fazer algo sem muito repertório que funcione. E logo depois, eu fui começar a fazer o site.
 
 ---
@@ -63,8 +63,8 @@ Foi aí que eu fui para o Figma, e criei uma versão experimental do que eu gost
 Para a minha infelicidade, o site estava simples demais. Ao invés de seguir com aqueles esboços da versão espacial, eu acabei abandonando todas as minhas inovações para criar algo novo.
 
 Embora simples, eu acabei usando essa estética para revisitar alguns projetos antigos, como o do [QR Code Generator](https://qr.alanreis.blog), onde eu acabei praticando a internacionalização do site, e pus em prática a estética, de modo simples ainda, nada ousado, mas já podendo dizer que algo está chegando.
-![[Captura de Tela 2025-07-19 às 16.27.12.png]]
-![[Captura de Tela 2025-07-19 às 16.26.44.png]]
+![[8.png]]
+![[9.png]]
 Eu mal vou comentar sobre esse projeto, porque eu acabei precisando de fato revisitar ele pois ele já não funcionava mais, e agora eu deixei ele de uma forma definitiva.
 
 Um mês se passa e aqui estava eu, frustrado com a vida, mexendo no LinkedIn, até que eu encontro um Post falando sobre o React Bits, que é nada mais, nada menos, que um conglomerado de componentes React, já estilizados, e que usam o Motion, ou o GSAP para animação desses componentes, e acabei encontrando uma grade de pontos interativa, e eu decidi adotar no meu site. Eu acabei percebendo que eu não preciso reinventar toda a roda por necessidade. Eu posso criar coisas novas com coisas já existentes, e ainda sendo autêntico. Meus queridos, depois de uma longa progressão, finalmente vamos falar sobre o meu projeto mais ousado: O meu site pessoal!
@@ -74,7 +74,7 @@ Um mês se passa e aqui estava eu, frustrado com a vida, mexendo no LinkedIn, at
 Após quase 2 semanas de desenvolvimento do site, finalmente ficou pronto. Foi bem trabalhoso, porque ao mesmo tempo que eu tinha que criar esse site, eu tinha que ficar escrevendo esse artigo. A ideia desse artigo é documentar um histórico meu, para que futuramente eu possa ter registrado o meu crescimento, e eu acabei de encontrar também, uma outra forma de criar conteúdo, algo que não necessariamente seja uma aula, mas que as pessoas consigam aprender algo com o que eu já passei. E eu sinto que eu finalmente consegui criar algo que eu poderia me orgulhar de ter.
 
 O site em si é uma experiência visual que varia de plataforma em plataforma, e eu acabei tendo vários feedbacks sobre criação de interface, coisas que eu quero falar melhor num outro texto, onde eu provavelmente vou criticar essa interface que eu trabalhei em alguns aspectos. Mas o que tem de tão fantástico nesse site que eu tanto falei, mas não mostrei?
-![[Gravação de Tela 2025-07-23 às 11.33.23 (1).gif]]
+![[10.gif]]
 Embora eu tenha me agradado muito com o resultado final, eu sinto que essa interface, que é chamada de Artificial Lake, ainda vai amadurecer bastante, então eu não vou me preocupar com alguns detalhes. Eu optei por construir o bruto, a ideia, do que criar algo inteiramente definitivo, porque a proposta de um site para mim é poder ter uma base para qualquer outra coisa que eu fizer. Então logo após a criação desse site, eu já tenho que criar a API – que inclusive eu já comecei a fazer – e por fim, terei que integrar a API no site, mas assim, esse é um processo simples, então eu não estou muito preocupado.
 
 Enquanto a API não está pronta, o site vai estar disponível em [https://preview.alanreis.blog](https://preview.alanreis.blog), e essa será a URL definitiva para cada versão em desenvolvimento do Artificial Lake.

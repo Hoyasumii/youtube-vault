@@ -14,7 +14,7 @@ Uma boa Stack pode te poupar horas de dores de cabeça, e te prepararem para pro
 
 A partir de agora, eu vou falar sobre a Stack que eu venho usando para resolver um dos meus principais problemas: A Criação da minha API.
 
-Criar a minha API não foi difícil, mas isso foi por conta de algumas coisas que eu já tinha sabia, e da API da Dev.to, que é um dos lugares que eu publico meus textos. A API da Dev.to consegue listar os artigos que você posta, e ele consegue diferenciar seus artigos por idioma, e como o meu site tem apenas 2 versões, a Estadunidense e a Brasileira, eu implementei um filtro do lado do servidor para exibir os artigos de acordo com o idioma escolhido, e fiz a consumação da API para exibir todo esse conteúdo. Com isso, minha tarefa acabou ficando mais leve e tranquila, restando agora a tarefa de listar os meus projetos.
+Criar a minha API não foi difícil, mas isso foi por conta de algumas coisas que eu já tinha sabia, e da API da [dev.to](https://dev.to/guilhermecheng/how-to-use-devto-api-4p65), que é um dos lugares que eu publico meus textos. A API da Dev.to consegue listar os artigos que você posta, e ele consegue diferenciar seus artigos por idioma, e como o meu site tem apenas 2 versões, a Estadunidense e a Brasileira, eu implementei um filtro do lado do servidor para exibir os artigos de acordo com o idioma escolhido, e fiz a consumação da API para exibir todo esse conteúdo. Com isso, minha tarefa acabou ficando mais leve e tranquila, restando agora a tarefa de listar os meus projetos.
 
 Beleza, qual framework e qual banco de dados eu devo escolher?
 
@@ -30,7 +30,7 @@ Usei o **Mongoose** como ODM e defini os modelos das **Coleções** na camada de
 # 2. Como organizar o seu projeto?
 Quando você não tem prática com back-end, você acaba tendo que lidar com vários problemas que irão surgir no desenvolvimento da sua API, sendo comumente associado na distribuição correta de camadas, e isso acaba sendo um processo que levará semanas até que você consiga entender todo o seu funcionamento, mas confia em mim que esse processo de aprendizado acaba sendo compensado com o passar dos seus próximos projetos.
 
-![[estrutura-api.png]]
+![estrutura-api.png](/estrutura-api.png)
 
 Essa imagem é um resumo de como eu organizo o coração do meu código. 
 
@@ -41,7 +41,7 @@ O fluxo é bem simples:
 
 É um fluxo simples, mas para quem está começando é algo bem complicadinho de entender.
 
-![[estrutura-api-2.png]]
+![estrutura-api-2.png](/estrutura-api-2.png)
 
 Com a base do código feita, eu consigo mover essa base para **qualquer framework que existe**, já que todo o seu funcionamento é separado em camadas, e eu acabei me lembrando de uma ferramenta que existe e que faria toda a diferença.
 

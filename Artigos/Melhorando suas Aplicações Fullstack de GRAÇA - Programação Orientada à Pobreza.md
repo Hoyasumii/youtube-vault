@@ -14,7 +14,6 @@ Nesse artigo vamos falar sobre:
 - Hospedar Bancos de Dados Gratuitamente(MongoDB Atlas, Supabase e Turso):
 	1. Problemas de consumir diretamente os serviços de bancos de dados com o Plano Gratuito;
 - Uso de Cache para melhorar o tempo de resposta dos bancos de dados;
-- Criando Monolitos com Turborepo;
 
 ---
 # 1. A Verdade sobre Criar Aplicativos Fullstack de Graça
@@ -102,17 +101,7 @@ Eu tenho os meus problemas com o Prisma, mas desde que ele passou a exportar a t
 Além do Supabase, tem o Turso, que eu de fato queria parar para ver sobre, e talvez em algum futuro projeto, eu o use, mas por enquanto vou ficar em paz com o Supabase + Prisma + Redis. Para quem não conhece o Turso, ele é um serviço de banco de dados em SQLite, só que voltado especificamente em servidor.
 
 ---
-# 6. Usando Monólitos com Turborepo
-Uma das coisas que eu mais acho interessante sobre a área de desenvolvimento de software é que várias tendências surgem como soluções para problemas existente. Mas sempre que uma nova tendência surge, novos problemas surgem, e aí vem novas ferramentas pra solucionar esses problemas existentes. E por fim, acabam encontrando uma solução bem semelhante à versão original. Dito isso, vamos falar sobre os monólitos.
-
-Em nosso contexto de escassez, é interessante analisarmos sobre como a nossa aplicação será executada em produção. Nem sempre é viável usar microsserviços para hospedar um projeto de portfólio. 
-
-Por isso existem ferramentas como o Turborepo, da Vercel, que permite que coloquemos mais de um projeto no mesmo espaço de deploy, diferenciando esses "microsserviços" por meio dos caminhos HTTP. Vale ressaltar que o Turborepo só vai funcionar para projetos que consigam ser executados na Vercel. Mas isso não é de todo ruim. 
-
-Usando o Turborepo, podemos separar a nossa API do nosso Front-End, e gerenciar cada um desses projetos separadamente, de modo mais organizado.
-
----
-# 7. Conclusão
+# 6. Conclusão
 Eu acredito que ao longo desses meus 3 últimos artigos, eu consegui encontrar parte de uma Stack que desde o início eu não tinha grandes expectativas, mas é interessante pensar que tudo isso surgiu de uma ideia de poder hospedar a API do meu site sem gastar nada.
 
 Começamos falando do site; Depois fomos falar da API; e por fim, amadurecemos parte desse back-end. E por mais que parte dessa ideia de Programação Orientada à Pobreza seja uma piada, eu sinto que consegui não só abrir mais a minha cabeça sobre estar preparado para o pior cenário possível, como também, incentivar você leitor, de conhecer coisas novas.
